@@ -1,0 +1,39 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="analysisGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976D2;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#388E3C;stop-opacity:0.15" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#analysisGradient)" rx="15"/>
+  
+  <!-- Document/text representation -->
+  <rect x="40" y="30" width="140" height="120" rx="8" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Text lines -->
+  <rect x="55" y="50" width="110" height="4" rx="2" fill="#BDBDBD"/>
+  <rect x="55" y="65" width="90" height="4" rx="2" fill="#BDBDBD"/>
+  <rect x="55" y="80" width="100" height="4" rx="2" fill="#FF5722"/>
+  <rect x="55" y="95" width="85" height="4" rx="2" fill="#BDBDBD"/>
+  <rect x="55" y="110" width="95" height="4" rx="2" fill="#FF9800"/>
+  <rect x="55" y="125" width="75" height="4" rx="2" fill="#BDBDBD"/>
+  
+  <!-- Analysis results panel -->
+  <rect x="200" y="40" width="80" height="100" rx="8" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Risk indicators -->
+  <circle cx="220" cy="60" r="6" fill="#FF5722"/>
+  <text x="235" y="65" font-family="Arial" font-size="8" fill="#666">High</text>
+  
+  <circle cx="220" cy="80" r="6" fill="#FF9800"/>
+  <text x="235" y="85" font-family="Arial" font-size="8" fill="#666">Med</text>
+  
+  <circle cx="220" cy="100" r="6" fill="#4CAF50"/>
+  <text x="235" y="105" font-family="Arial" font-size="8" fill="#666">Low</text>
+  
+  <!-- AI brain/processing icon -->
+  <circle cx="150" cy="170" r="15" fill="#1976D2" opacity="0.8"/>
+  <path d="M145 165L150 170L155 165M150 170L150 175" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>

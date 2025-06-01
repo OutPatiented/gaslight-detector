@@ -1,0 +1,28 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976D2;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#388E3C;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#heroGradient)" rx="20"/>
+  
+  <!-- Chat bubbles representing conversation -->
+  <rect x="50" y="80" width="120" height="40" rx="20" fill="#1976D2" opacity="0.8"/>
+  <rect x="60" y="140" width="100" height="35" rx="18" fill="#E0E0E0"/>
+  <rect x="230" y="120" width="110" height="38" rx="19" fill="#FF5722" opacity="0.7"/>
+  <rect x="70" y="190" width="130" height="42" rx="21" fill="#388E3C" opacity="0.8"/>
+  
+  <!-- Magnifying glass over conversation -->
+  <circle cx="280" cy="160" r="35" stroke="#1976D2" stroke-width="4" fill="none"/>
+  <line x1="305" y1="185" x2="330" y2="210" stroke="#1976D2" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Warning indicators -->
+  <circle cx="200" cy="100" r="8" fill="#FF5722"/>
+  <path d="M196 96L196 102M196 105L196.01 105" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <circle cx="260" cy="180" r="6" fill="#FF9800"/>
+  <path d="M257 177L257 181M257 183L257.01 183" stroke="white" stroke-width="1" stroke-linecap="round"/>
+</svg>
